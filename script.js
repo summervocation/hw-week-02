@@ -27,3 +27,15 @@ function leapYear(y){
         return "no";
     }
 }
+
+function random(m){
+    return Math.floor(Math.random()*m+1);
+}
+
+function lastChar(arr){
+    return arr[arr.lengh-1]
+}
+
+function squares (a, b){
+    return a * a + b * b;
+}
