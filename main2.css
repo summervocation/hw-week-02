@@ -1,29 +1,25 @@
-body {
-    background-color:lightgreen;
+.person{
+    border: 10px solid transparent;
+    width: 80%;
+    margin-bottom: 100px;
 }
-@media (max-width: 767px) {
-    body {
-        background-color:red;
-    }
+.person:hover{
+    border-color: rgba(128, 128, 128, 0.23);
 }
-@media (max-width: 480px) {
-    body {
-        background-color:lightblue;
-    }
+.carousel-inner img{
+    height: 500px !important;
+    width: 100%;
 }
-@media (min-width: 768px) and (max-width: 979px) {
-    body {
-        background-color:lightgreen;
-    }
+.bg-1{
+    background: #1c1c1c;
 }
-@media (min-width: 980px) {
-   body {
-        background-color:orange;
-    }
+.bg-1 h3, .bg-1 p{
+    color: #fff;
 }
-@media (min-width: 1200px) {
-
-    body {
-        background-color:purple;
-    }
+.bg-1 h3{
+    padding-top: 40px;
+    
+}
+.bg-1 p{
+    padding: 40px 0px;
 }
